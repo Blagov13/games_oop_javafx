@@ -29,7 +29,7 @@ public class BishopBlackTest {
     @Test
     public void way() {
         BishopBlack bb = new BishopBlack(Cell.C1);
-        assertThat(bb.way(Cell.G5)). isEqualTo(new Cell[]{ Cell.D2, Cell.E3, Cell.F4, Cell.G5});
+        assertThat(bb.way(Cell.G5)).isEqualTo(new Cell[]{Cell.D2, Cell.E3, Cell.F4, Cell.G5});
     }
 
     @Test
